@@ -28,9 +28,20 @@ $pendingConnections = [
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Início - TydraPI</title>
-  <?php include 'header.php'; ?>
   <style>
 
+  </style>
+  <?php include 'header.php'; ?>
+  <style>
+    .border-priority-high {
+      border-left: 4.8px solid red !important;
+    }
+    .border-priority-medium {
+      border-left: 4.8px solid #FFC107 !important;
+    }
+    .border-priority-low {
+      border-left: 4.8px solid  greenyellow !important;
+    }
   </style>
 </head>
 <body>
@@ -54,7 +65,7 @@ $pendingConnections = [
             $borderClass = $event['priority']==='high'? 'border-priority-high' : ($event['priority']==='medium'? 'border-priority-medium':'border-priority-low');
           ?>
           <div class="col-12 col-md-4">
-            <div class="card card-custom <?php echo $borderClass; ?>">
+            <div class="card card-custom  <?php echo $borderClass; ?>">
               <div class="card-body">
                 <h5 class="card-title"><?= htmlspecialchars($event['title']) ?></h5>
                 <p class="card-text text-secondary-custom mb-2"><?= htmlspecialchars($event['subject']) ?></p>

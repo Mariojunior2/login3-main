@@ -493,16 +493,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-:root {
-  --red:#E10600;
-  --yellow:#FFC107;
-  --green:#28A745;
-  --bg-dark:#121212;
-  --card-bg:#1A1A1A;
-  --text-secondary:#B0B0B0;
-  --transfor-site:#3a3a3a;
-}
-
 body {
   background: var(--bg-dark);
   color: white;
@@ -586,7 +576,13 @@ h5, h4, h6 {
      object-fit: cover;
 }
 
+.sidebar a.nav-link:hover {
+  background-color: rgba(243, 243, 243, 0.0823529412);
+}
+
 .sidebar {
+  max-width: -moz-max-content;
+  max-width: max-content;
   min-height: 100%;
   left: 0;
   top: 0;
@@ -811,6 +807,112 @@ h2 {
 .tags-container {
   display: flex;
   flex-wrap: wrap;
+}
+
+/* Event Details */
+.event-date {
+  color: var(--primary-color);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.event-location {
+  display: flex;
+  align-items: center;
+  color: var(--text-secondary);
+  margin-bottom: 5px;
+}
+
+.event-location i {
+  margin-right: 5px;
+}
+
+.event-organizer {
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.card-actionsEvents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* User Profile */
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50% !important;
+  background-color: #555 !important;
+  margin-right: 15px !important;
+  overflow: hidden !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #ddd !important;
+  font-size: 20px !important;
+}
+
+.user-info {
+  flex: 1;
+}
+
+.user-name {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #ffffff !important;
+}
+
+.verification-badge {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 10px;
+  margin-left: 8px;
+}
+
+.username {
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.user-bio {
+  color: var(--text-color);
+  margin-top: 5px;
+}
+
+.follower-count {
+  color: var(--text-secondary);
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.user-name {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color: #ffffff !important;
+}
+
+.verification-badge {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 10px;
+  margin-left: 8px;
+}
+
+.username {
+  color: var(--text-secondary);
+  font-size: 14px;
 }
 
 /* Event Details */

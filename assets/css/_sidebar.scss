@@ -1,4 +1,3 @@
-:root { --red:#E10600; --yellow:#FFC107; --green:#28A745; --bg-dark:#121212; --card-bg:#1A1A1A; --text-secondary:#B0B0B0; --transfor-site:#3a3a3a; }
 body { background: var(--bg-dark); color:#ffff; }
 .sidebar { background:#000; width:490px; }
 .sidebar a.nav-link { color:#ffff; padding:0.75rem 1rem; border-radius:0.5rem; } 
@@ -18,9 +17,13 @@ h5, h4, h6 { color: #ffff !important;}
 .card-text, .text-secondary-custom { font-size:.9rem; }
 .d-flex.align-items-center img { object-fit:cover; }
 
+.sidebar a.nav-link:hover {
+    background-color: #f3f3f315;
+}
     
 .sidebar {
 
+    max-width: max-content;
     min-height: 100%;
     left: 0;
     top: 0;

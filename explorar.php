@@ -154,7 +154,7 @@ if (!in_array($active_tab, $valid_tabs)) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Explorar | TydraPI</title>
+    <title>Explorar - TydraPI</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -164,57 +164,7 @@ if (!in_array($active_tab, $valid_tabs)) {
             width: 20%;
             position: fixed;
         }
-        .avatar {
-            width: 50px !important;
-            height: 50px !important;
-            border-radius: 50% !important;
-            background-color: #555 !important;
-            margin-right: 15px !important;
-            overflow: hidden !important;
-            display: flex !important;
-            align-items: center !important;
-            justify-content: center !important;
-            color: #ddd !important;
-            font-size: 20px !important;
-        }
-        
-        
-        .user-info {
-            flex: 1;
-        }
-
-        .user-name {
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-            color: #ffffff !important;
-        }
-
-        .verification-badge {
-            background-color: var(--primary-color);
-            color: white;
-            padding: 2px 6px;
-            border-radius: 3px;
-            font-size: 10px;
-            margin-left: 8px;
-        }
-
-        .username {
-            color: var(--text-secondary);
-            font-size: 14px;
-        }
-
-        .user-bio {
-            color: var(--text-color);
-            margin-top: 5px;
-        }
-
-        .follower-count {
-            color: var(--text-secondary);
-            font-size: 14px;
-            margin-top: 3px;
-        }
-
+ 
       
         .content-wrapper {
             margin-left: 240px;
