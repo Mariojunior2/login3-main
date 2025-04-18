@@ -9,7 +9,7 @@
                 <li><a href="./comunidades.php" class="nav-link"><i class="fas fa-users me-2"></i>Comunidades</a></li>
                 <li><a href="./recursoeducacionais.php" class="nav-link"><i class="fas fa-chart-bar me-2"></i>Recursos Educacionais</a></li>
                 <li><a href="./notific.php" class="nav-link d-flex justify-content-between align-items-center"><span><i class="fas fa-bell me-2"></i>Notificações</span><span class="badge bg-danger">7</span></a></li>
-                <li><a href="./perfil.php" class="nav-link"><i class="fas fa-user me-2"></i>Perfil</a></li>
+                <li><a href="./index.php" class="nav-link"><i class="fas fa-user me-2"></i>Perfil</a></li>
                 <li><a href="./configuracao.php" class="nav-link"><i class="fas fa-cog me-2"></i>Configurações</a></li>
             </ul>
             <hr class="border-secondary my-3">
