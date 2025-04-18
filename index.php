@@ -60,9 +60,11 @@
           </div>
           <a href="/forgot-password" class="forgot-link">Esqueceu a senha?</a>
         </div>
-
+      
         <button type="submit" class="btn-submit">
-          <a href="hub.php">Entrar</a>
+        <a href="hub.php" style="text-decoration: none; color: #fff;">
+          Entrar
+        </a> <a style="display: none;">mudar o entrar para nao dar merda</a>
           <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
         </button>
       </form>
