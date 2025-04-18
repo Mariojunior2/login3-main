@@ -62,7 +62,7 @@
         </div>
 
         <button type="submit" class="btn-submit">
-          Entrar
+          <a href="hub.php">Entrar</a>
           <span class="btn-icon"><i class="fas fa-arrow-right"></i></span>
         </button>
       </form>
