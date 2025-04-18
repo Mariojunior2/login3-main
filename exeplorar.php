@@ -163,238 +163,22 @@ if (!in_array($active_tab, $valid_tabs)) {
         .sidebar {
             width: 20%;
             position: fixed;
-      
         }
-        
-        .text-danger {
-            color: var(--primary-color) !important;
-        }
-        
-        .text-secondary-custom {
-            color: var(--text-secondary);
-        }
-        
-        
-        :root {
-            --primary-color: #ff0000;
-            --primary-hover: #e60000;
-            --background-dark: #121212;
-            --card-background: #1e1e1e;
-            --text-color: #ffffff;
-            --text-secondary: #a0a0a0;
-            --border-color: #333333;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: var(--background-dark);
-            color: var(--text-color) !important;
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 15px;
-        }
-
-        /* Header Styles */
-        .header {
-            padding: 20px 0;
-            background-color: transparent !important;
-            border: none !important;
-        }
-
-        .header h1 {
-            font-size: 24px;
-            font-weight: bold;
-        }
-
-        h2 {
-            color: #ffffff !important;
-        }
-
-        /* Search Bar */
-        .search-container {
-            margin: 5px 0;
-        }
-
-        .search-bar {
-            width: 100%;
-            background-color: #333;
-            border: none;
-            border-radius: 4px;
-            padding: 12px 15px;
-            color: var(--text-color);
-            font-size: 16px;
-        }
-
-        .search-bar:focus {
-            outline: none;
-        }
-
-        .search-bar::placeholder {
-            color: var(--text-secondary);
-        }
-
-        /* Navigation Tabs */
-        .tabs {
-            display: flex;
-            justify-content: space-between;
-            background-color: #1a1a1a;
-            border-radius: 4px;
-            overflow: hidden;
-            margin-bottom: 20px;
-        }
-
-        .tab-link {
-            flex: 1;
-            text-align: center;
-            padding: 15px 0;
-            text-decoration: none;
-            color: var(--text-color);
-            font-weight: 500;
-            transition: background-color 0.3s;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .tab-link i {
-            margin-right: 8px;
-        }
-
-        .tab-link.active {
-            background-color: var(--primary-color);
-        }
-
-        .tab-link:hover:not(.active) {
-            background-color: #252525;
-        }
-
-        /* Card Styles */
-        .card {
-            background-color: var(--card-background) !important;
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 15px;
-            transition: transform 0.2s;
-            border: none !important;
-        }
-
-        .card:hover {
-            transform: translateY(-2px);
-        }
-
-        .card-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 12px;
-            background-color: transparent !important;
-            border-bottom: none !important;
-            padding: 0 !important;
-        }
-
-        .card-title {
-            font-size: 18px;
-            font-weight: bold;
-        }
-
-        .card-meta {
-            color: var(--text-secondary);
-            font-size: 14px;
-            margin-top: 5px;
-        }
-
-        .card-description {
-            color: var(--text-secondary);
-            margin-bottom: 15px;
-        }
-
-        /* Badges and Tags */
-        .badge {
-            display: inline-block;
-            background-color: var(--primary-color);
-            color: white;
-            border-radius: 20px;
-            padding: 4px 10px;
-            font-weight: bold;
-            font-size:.75rem !important; 
-        }
-
-        .tag {
-            display: inline-block;
-            background-color: #333;
-            color: var(--text-color);
-            border-radius: 20px;
-            padding: 5px 10px;
-            font-size: 12px;
-            margin-right: 8px;
-            margin-bottom: 8px;
-        }
-
-        /* Buttons */
-        .btn {
-            
-            color: white !important;
-            border: none;
-            border-radius: 7px;
-            padding: 10px 15px;
-            font-size: 14px;
-            font-weight: bold;
-            cursor: pointer;
-            align-items: center;
-            transition: background-color 0.3s;
-        }
-
-        .btn:hover {
-            background-color: var(--primary-hover) !important;
-        }
-
-        .btn-outline {
-            background-color: transparent !important;
-            border: 1px solid var(--primary-color);
-            color: var(--primary-color) !important;
-        }
-
-        .btn-outline:hover {
-            background-color: var(--primary-color) !important;
-            color: white !important;
-        }
-
-        .btn-sm {
-            padding: 6px 12px;
-            font-size: 12px;
-        }
-
-        /* User Profile */
-        .user-profile {
-            display: flex;
-            align-items: center;
-        }
-
         .avatar {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background-color: #555;
-            margin-right: 15px;
-            overflow: hidden;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #ddd;
-            font-size: 20px;
+            width: 50px !important;
+            height: 50px !important;
+            border-radius: 50% !important;
+            background-color: #555 !important;
+            margin-right: 15px !important;
+            overflow: hidden !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            color: #ddd !important;
+            font-size: 20px !important;
         }
-
+        
+        
         .user-info {
             flex: 1;
         }
@@ -431,45 +215,7 @@ if (!in_array($active_tab, $valid_tabs)) {
             margin-top: 3px;
         }
 
-        /* Tags Container */
-        .tags-container {
-            display: flex;
-            flex-wrap: wrap;
       
-        }
-
-        /* Event Details */
-        .event-date {
-            color: var(--primary-color);
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        .event-location {
-            display: flex;
-            align-items: center;
-            color: var(--text-secondary);
-            margin-bottom: 5px;
-        }
-
-        .event-location i {
-            margin-right: 5px;
-        }
-
-        .event-organizer {
-            color: var(--text-secondary);
-            font-size: 14px;
-        }
-
-        .card-actionsEvents {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        
-        
-        /* Main content container with sidebar */
         .content-wrapper {
             margin-left: 240px;
             padding: 20px;
