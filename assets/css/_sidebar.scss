@@ -18,11 +18,10 @@ h5, h4, h6 { color: #ffff !important;}
 .d-flex.align-items-center img { object-fit:cover; }
 
 .sidebar a.nav-link:hover {
-    background-color: #f3f3f315;
+    background-color: #e60000;
 }
     
 .sidebar {
-
     max-width: max-content;
     min-height: 100%;
     left: 0;
@@ -75,8 +74,11 @@ body {
 }
 
 .header h1 {
-    font-size: 24px;
+    font-size: 37px;
+    margin-top: -1.75%;
+    align-self: center;
     font-weight: bold;
+    color: rgb(255, 0, 0);
 }
 
 h2 {
@@ -85,7 +87,8 @@ h2 {
 
 /* Search Bar */
 .search-container {
-    margin: 5px 0;
+
+    margin-left: -65%;
 }
 
 .search-bar {
@@ -114,6 +117,7 @@ h2 {
     border-radius: 4px;
     overflow: hidden;
     margin-bottom: 20px;
+    margin-top: -2%;
 }
 
 .tab-link {
@@ -134,7 +138,7 @@ h2 {
 }
 
 .tab-link.active {
-    background-color: var(--primary-color);
+    background-color: #e60000;
 }
 
 .tab-link:hover:not(.active) {

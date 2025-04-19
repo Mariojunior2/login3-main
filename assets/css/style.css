@@ -481,18 +481,6 @@ body {
     padding: 2rem 1.5rem;
   }
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-* {
-  @apply border-border;
-}
-
-body {
-  @apply bg-tydrapi-black text-white;
-  font-family: "Inter", sans-serif;
-}
-
 body {
   background: var(--bg-dark);
   color: white;
@@ -577,7 +565,7 @@ h5, h4, h6 {
 }
 
 .sidebar a.nav-link:hover {
-  background-color: rgba(243, 243, 243, 0.0823529412);
+  background-color: #e60000;
 }
 
 .sidebar {
@@ -632,8 +620,11 @@ body {
 }
 
 .header h1 {
-  font-size: 24px;
+  font-size: 37px;
+  margin-top: -1.75%;
+  align-self: center;
   font-weight: bold;
+  color: rgb(255, 0, 0);
 }
 
 h2 {
@@ -642,7 +633,7 @@ h2 {
 
 /* Search Bar */
 .search-container {
-  margin: 5px 0;
+  margin-left: -65%;
 }
 
 .search-bar {
@@ -675,6 +666,7 @@ h2 {
   border-radius: 4px;
   overflow: hidden;
   margin-bottom: 20px;
+  margin-top: -2%;
 }
 
 .tab-link {
@@ -695,7 +687,7 @@ h2 {
 }
 
 .tab-link.active {
-  background-color: var(--primary-color);
+  background-color: #e60000;
 }
 
 .tab-link:hover:not(.active) {

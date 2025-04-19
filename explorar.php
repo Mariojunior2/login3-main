@@ -181,14 +181,17 @@ if (!in_array($active_tab, $valid_tabs)) {
         <!-- Main content -->
         <div class="content-wrapper">
             <div class="container">
-                <header class="header">
-                    <h1>Explorar</h1>
-                </header>
+                <header class="header row">
+                <div class="col align-items-center p-3">    
+                <h1>Explorar</h1>
+                </div>
 
                 <!-- Search Bar -->
-                <div class="search-container">
+                 
+                <div class="search-container col justify-center">
                     <input type="text" class="search-bar" placeholder="Buscar..." aria-label="Buscar">
                 </div>
+                </header>
 
                 <!-- Navigation Tabs -->
                 <nav class="tabs">
