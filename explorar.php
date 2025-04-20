@@ -167,9 +167,10 @@ if (!in_array($active_tab, $valid_tabs)) {
  
       
         .content-wrapper {
-            margin-left: 240px;
+            align-self: center;
+            margin-left: 260px;
             padding: 20px;
-            width: calc(100% - 20%);
+            width: calc(120%);
         }
     </style>
 </head>
@@ -177,7 +178,7 @@ if (!in_array($active_tab, $valid_tabs)) {
 
         <!-- Sidebar -->
         <?php include 'sidebar.php' ?>
-        <div class="d-flex ">
+        <div class="d-flex">
         <!-- Main content -->
         <div class="content-wrapper">
             <div class="container">
