@@ -481,6 +481,30 @@ body {
     padding: 2rem 1.5rem;
   }
 }
+:root {
+  --primary-color: #ff0000;
+  --primary-hover: #e60000;
+  --background-dark: #121212;
+  --card-background: #1e1e1e;
+  --text-color: #ffffff;
+  --text-secondary: #a0a0a0;
+  --border-color: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--background-dark);
+  color: var(--text-color) !important;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
 body {
   background: var(--bg-dark);
   color: white;
@@ -502,8 +526,12 @@ body {
 }
 
 .sidebar a.nav-link.active, .sidebar a.nav-link:hover {
-  background: none;
+  background: #e60000;
   color: white;
+}
+
+.sidebar .a.nav-link.active {
+  background: var(--red);
 }
 
 .sidebar .badge {
@@ -568,8 +596,8 @@ h5, h4, h6 {
   background-color: #e60000;
 }
 
-a.nav-link.active {
-  background-color: none !important;
+.sidebar .nav-link.active {
+  background-color: none;
 }
 
 .sidebar {
@@ -582,32 +610,50 @@ a.nav-link.active {
   border-right: 1px solid var(--border-color);
 }
 
+.toggle-submenu {
+  display: none;
+  cursor: pointer;
+  padding: 0 1px;
+  margin-left: 4px;
+  transform: rotate(10deg);
+}
+
+.toggle-submenu:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.sub-menu {
+  display: none;
+  padding-left: 1.5rem;
+  list-style-type: none;
+}
+
+.recursos-educacionais.active .nameP {
+  background-color: #e60000;
+}
+
+.recursos-educacionais.active .sub-menu {
+  display: block;
+}
+
+.toggle-submenu.active {
+  display: block;
+  transform: rotate(360deg);
+}
+
+.recursos-educacionais.active .toggle-submenu {
+  display: block;
+  transform: rotate(180deg);
+  background-color: #e60000;
+}
+
+.recursos-icon {
+  transition: transform 0.3s ease;
+}
+
 .text-secondary-custom {
   color: var(--text-secondary);
-}
-
-:root {
-  --primary-color: #ff0000;
-  --primary-hover: #e60000;
-  --background-dark: #121212;
-  --card-background: #1e1e1e;
-  --text-color: #ffffff;
-  --text-secondary: #a0a0a0;
-  --border-color: #333333;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: var(--background-dark);
-  color: var(--text-color) !important;
-  line-height: 1.6;
-  overflow-x: hidden;
 }
 
 .container {
@@ -688,6 +734,10 @@ h2 {
 
 .tab-link i {
   margin-right: 8px;
+}
+
+.open {
+  background-color: #e60000 !important;
 }
 
 .tab-link.active {
