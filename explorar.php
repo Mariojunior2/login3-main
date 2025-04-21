@@ -189,7 +189,7 @@ if (!in_array($active_tab, $valid_tabs)) {
 
                 <!-- Search Bar -->
                  
-                <div class="search-container col justify-center">
+                <div class="search-container col justify-center search-container-explorar">
                     <input type="text" class="search-bar" placeholder="Buscar..." aria-label="Buscar">
                 </div>
                 </header>
