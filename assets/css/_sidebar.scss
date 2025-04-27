@@ -343,3 +343,68 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+
+
+:root {
+    --primary-color: #ff0000;
+    --primary-hover: #e60000;
+    --background-dark: #121212;
+    --card-background: #1e1e1e;
+    --text-color: #ffffff;
+    --text-secondary: #a0a0a0;
+    --border-color: #333333;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-dark);
+    color: var(--text-color);
+    overflow-x: hidden;
+  }
+  
+  .sidebar {
+    background: #000;
+    max-width: max-content;
+
+    min-height: 100vh;
+    border-right: 1px solid var(--border-color);
+    overflow-y: auto;
+  }
+  
+  .nav-link {
+    color: var(--text-color);
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+  }
+  .nav-link:hover,
+  .nav-link.active {
+    background: var(--primary-hover);
+  }
+  
+  .badge {
+    font-size: .75rem;
+  }
+  
+  .submenu-icon {
+    transition: transform .3s ease;
+  }
+  
+  .has-submenu .sub-menu {
+    display: none;
+    list-style: none;
+    padding-left: 1.5rem;
+  }
+  .has-submenu.active .sub-menu {
+    display: block;
+  }
+  .has-submenu.active .submenu-icon {
+    transform: rotate(180deg);
+  }
+  
+  .status-indicator {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #000;
+  }

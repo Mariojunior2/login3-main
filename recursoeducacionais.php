@@ -97,7 +97,7 @@
                     </div>
                     
                     <div class="d-flex mt-3 gap-2">
-                        <button class="btn-primary action-btn">Grade</button>
+                        <button class="btn-primary action-btn" style="border-radius: 0%;">Grade</button>
                         <button class="tab-button secondary">Lista</button>
                     </div>
                 </div>
